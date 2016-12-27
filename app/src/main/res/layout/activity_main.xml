@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="session.radiobuttonslide.MainActivity">
+
+<RadioGroup
+    android:id="@+id/rg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <session.radiobuttonslide.SlideRadioButton
+        android:text="选项一"
+        style="@style/slide_radio"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        />
+
+    <View
+        android:layout_width="100dp"
+        android:background="@android:color/holo_green_dark"
+        android:layout_height="1dp"/>
+
+    <session.radiobuttonslide.SlideRadioButton
+        android:text="选项一"
+        style="@style/slide_radio"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        />
+
+    <View
+        android:layout_width="100dp"
+        android:background="@android:color/holo_green_dark"
+        android:layout_height="1dp"/>
+
+    <session.radiobuttonslide.SlideRadioButton
+        android:text="选项一"
+        style="@style/slide_radio"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        />
+
+    <View
+        android:layout_width="100dp"
+        android:background="@android:color/holo_green_dark"
+        android:layout_height="1dp"/>
+    <session.radiobuttonslide.SlideRadioButton
+        android:text="选项一"
+        style="@style/slide_radio"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        />
+
+    <View
+        android:layout_width="100dp"
+        android:background="@android:color/holo_green_dark"
+        android:layout_height="1dp"/>
+    <session.radiobuttonslide.SlideRadioButton
+        android:text="选项一"
+        style="@style/slide_radio"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        />
+
+</RadioGroup>
+</LinearLayout>
